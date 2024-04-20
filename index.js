@@ -33,5 +33,5 @@ app.post("/move", function(req, res) {
 
 app.listen(port, function () {
   console.log(`Virtuoso listening on port ${port}!`);
-  console.log('127.0.0.1:3000')
+  console.log('http://127.0.0.1:3000')
 });
