@@ -1,0 +1,1 @@
+cmd_Release/obj.target/bot.node := g++ -o Release/obj.target/bot.node -shared -pthread -rdynamic -m64  -Wl,-soname=bot.node -Wl,--start-group Release/obj.target/bot/bot.o Release/obj.target/bot/ChessBot.o Release/obj.target/bot/Polyglot.o -Wl,--end-group 
